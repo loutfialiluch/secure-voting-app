@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondaryColor);
+  height: 10vh;
+}
+.logo {
+  width: 4rem;
+  padding: 0.5rem 0;
+}
+.navItem {
+  display: inline-block;
+  padding: 1rem;
+  color: var(--primaryColor);
+  font-weight: 700;
+}

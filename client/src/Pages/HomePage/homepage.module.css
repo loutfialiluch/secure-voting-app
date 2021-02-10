@@ -1,0 +1,69 @@
+.mainTitle {
+  color: var(--secondaryColor);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.home {
+  background-color: var(--primaryColor);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.candidates {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.candidate {
+  width: 25rem;
+  margin: 1rem;
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.candidate h1 {
+  margin: 1rem 0;
+}
+.candidate a {
+  display: block;
+  color: var(--secondaryColor);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  background-color: var(--primaryColor);
+}
+
+.candidateImgWrapper {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .candidates {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .candidates {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .candidates {
+    width: 1170px;
+  }
+}

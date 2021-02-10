@@ -1,0 +1,79 @@
+.mainTitle {
+  color: var(--secondaryColor);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.votingForm {
+  background-color: var(--primaryColor);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.form input {
+  width: 20rem;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+.form input[type="submit"] {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.candidate img {
+  width: 20rem;
+}
+.voting img {
+  width: 8rem;
+  margin: 0 2rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

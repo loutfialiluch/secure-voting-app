@@ -1,0 +1,24 @@
+{
+  "name": "vote-electronique",
+  "version": "1.0.0",
+  "description": "Application de votes électronique basée sur le cryptage asymétrique.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Loutfi & Mohammed",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.12",
+    "openpgp": "^4.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
